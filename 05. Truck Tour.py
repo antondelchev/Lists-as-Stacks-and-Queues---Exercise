@@ -25,6 +25,7 @@ for i in range(n):
             break
         else:
             counter += 1
+            fuel -= next_pump
 
     if counter == len(queue):
         print(queue[0][2])
