@@ -19,7 +19,7 @@ while all_orders:
     else:
         print(f"Orders left: ", end="")
         for element in all_orders:
-            print(element, end="")
+            print(element, end=" ")
         flag = True
         break
 
